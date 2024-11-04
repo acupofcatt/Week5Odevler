@@ -14,3 +14,17 @@
 // 
 //  İsmi 'A' ile başlayan filmler ve imdb puanları listelensin.
 
+public class Program
+{
+    public static void Main()
+    {
+        
+        
+        Console.WriteLine("Lütfen film adı giriniz:");
+        string name = Console.ReadLine();
+        
+        
+    }
+    
+    public 
+}
