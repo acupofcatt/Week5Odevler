@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists2", "Lists2\Lists2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imdb", "Imdb\Imdb.csproj", "{2C70BD7B-ABC2-42FB-8DAC-4B1BFCF18595}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatch", "TryCatch\TryCatch.csproj", "{5FF79569-FAC4-4709-BB3C-F3D40BAB62E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KapanisWeek5", "KapanisWeek5\KapanisWeek5.csproj", "{1F0548A6-D478-457A-869B-F0451BF53233}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{2C70BD7B-ABC2-42FB-8DAC-4B1BFCF18595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C70BD7B-ABC2-42FB-8DAC-4B1BFCF18595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C70BD7B-ABC2-42FB-8DAC-4B1BFCF18595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF79569-FAC4-4709-BB3C-F3D40BAB62E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF79569-FAC4-4709-BB3C-F3D40BAB62E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF79569-FAC4-4709-BB3C-F3D40BAB62E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF79569-FAC4-4709-BB3C-F3D40BAB62E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0548A6-D478-457A-869B-F0451BF53233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0548A6-D478-457A-869B-F0451BF53233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0548A6-D478-457A-869B-F0451BF53233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0548A6-D478-457A-869B-F0451BF53233}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

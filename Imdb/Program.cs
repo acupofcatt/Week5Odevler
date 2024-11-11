@@ -28,7 +28,7 @@ public class Program
         {
             Console.WriteLine("Lütfen bir film ekleyiniz:");
             movies.Add(GetMovie());
-
+        
             Console.WriteLine("Yeni bir film eklemek için 'Evet' sonlandırmak için 'Hayır' giriniz.");
             string input = Console.ReadLine().ToLower();
             if (input == "evet")
@@ -41,35 +41,34 @@ public class Program
                 devam = false;
             }
         } while (devam == true);
+        
 
+        Console.WriteLine("Girdiğiniz tüm filmler:");
         foreach (Movie movie in movies)
         {
-            Console.WriteLine(movie);
+            Console.WriteLine(movie.Name +" - "+ movie.Rating);
         }
-        
-        List<Movie> dortVeDokuzArasiFilmler = new List<Movie>();
+
+        Console.WriteLine("Imdb puanı 4 ve 9 arası olan filmler:");
         foreach (Movie movie in movies)
         {
             //Imdb puanı 4 ve 9 arası olan filmleri yeni bir listeye taşıdım
             if (movie.Rating > 4 && movie.Rating < 9)
             {
-                dortVeDokuzArasiFilmler.Add(movie);
+                Console.WriteLine(movie.Name +" - "+ movie.Rating);
             }
         }
 
-        Console.WriteLine(dortVeDokuzArasiFilmler);
-        
-        List<Movie> aileBaslayanFilmler = new List<Movie>();
+        Console.WriteLine("A ile başlayan filmler:");
         foreach (Movie movie in movies)
         {
             //StartsWith metoduyla a harfi ile başlayan filmleri yeni bir listeye taşıdım
             if (movie.Name.StartsWith("A"))
             {
-                aileBaslayanFilmler.Add(movie);
+                Console.WriteLine(movie.Name +" - "+ movie.Rating);
             }
         }
-
-        Console.WriteLine(aileBaslayanFilmler);
+        
     }
 
     public static Movie GetMovie()
